@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Karla:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+    padding: 0.5em;
+}
+
+header {
+    width: 100%;
+}
+
+.logo {
+    width: 7em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#textarea {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 9px 2px rgba(0,0,0,0.1);
+    border-radius: 2.5em;    
+}
+
+#texto {
+    width: 100%;
+    max-width: calc(100% +0.5em);
+    height: 400px;
+    max-height: 400px;
+    padding: 0.5em;
+    font-family: 'inter', sans-serif;
+    font-size: 2em;
+    color: darkblue;
+    background-color: transparent;
+    border: none;
+    resize: none;
+}
+
+#texto::placeholder {
+    color: darkblue;
+}
+
+#texto:focus {
+    outline: none;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+}
+
+div.parrafo-icono .fa-circle-exclamation {
+    margin-right: 0.5em;
+}
+
+div.parrafo-icono .fa-circle-exclamation, div.parrafo-icono p {
+    color: #495057;
+    display: inline-block;
+}
+
+div.parrafo-icono, div#botones-encriptacion {
+    margin-top: 1em;
+}
+
+#encriptar, #desencriptar {
+    display: block;
+    width: 20.5em;
+    height: 4.18em;
+    border-radius: 1.5em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+#encriptar {
+    color: #ffffff;
+    background-color: #0A3871;
+    border: none;
+}
+
+#desencriptar {
+    margin-top: 2em;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+
+.rodapie {
+    display: flex;
+    margin-top: 0.5em;
+    align-items: center;
+}
+
+.rodapie p {
+    margin-left: 0.5em;
+}
+
+#aside {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 2.5em;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px 9px 2px rgba(0,0,0,0.1);
+}
+
+#pantalla {
+    width: 100%;
+}
+
+#parrafo-pantalla {
+    width: 100%;
+    height: 300px;
+    font-size: 1em;
+    padding: 0.5em;
+    font-family: 'inter', sans-serif;
+    border: none;
+    resize: none;
+}
+
+.display-none {
+    display: none!important;
+}
+
+img.aside-imagen {
+    display: none;
+}
+
+#pantalla p {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.div-boton-copiar {
+    width: 100%;
+    margin: 2em 0;
+}
+
+#copiar {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 40px;
+    font-size: 1em;
+    font-weight: bold;
+    color: darkblue;
+    background-color: #D8DFE8;
+    border: 1px solid darkblue;
+    border-radius: 0.5em;
+}

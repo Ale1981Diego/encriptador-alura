@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/medias-queries.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo2.png" alt="logo" class="logo">
+    </header>
+    <main>
+        <div class="main">
+            <div id="textarea">
+                <textarea name="texto" id="texto" placeholder="Ingrese su texto aquí"></textarea>
+            </div>
+            <div class="footer">
+                <div class="parrafo-icono">
+                    <i class="fa-solid fa-circle-exclamation"></i>  <p>Solo letras minúsculas y sin acentos.</p>
+                </div>
+                <div id="botones-encriptacion">
+                    <button id="encriptar">Encriptar</button>
+                    <button id="desencriptar">Desencriptar</button>
+                </div>
+                
+            </div>
+        </div>
+        <div id="aside">
+            <div id="pantalla">
+                <textarea class="display-none" id="parrafo-pantalla"></textarea>
+                <img src="imagenes/lupa.png" alt="" class="aside-imagen" id="aside-imagen">
+                <p class="aside-parrafo" id="aside-parrafo"><strong>Ningún mensaje fue encontrado</strong></p>
+                <p class="aside-parrafo-dos" id="aside-parrafo-dos">ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="div-boton-copiar display-none">
+                <button id="copiar">Copiar</button>
+            </div>
+        </div>
+        <div class="rodapie">
+            <img src="imagenes/step-post-alura.svg">
+            <p>Alura - Created by Alejandro Mancilla</p>
+        </div>
+    </main>
+    <script src="javascript/encriptador.js"></script>
+</body>
+</html>

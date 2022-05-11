@@ -1,0 +1,54 @@
+@media (min-width: 1024px) {
+    
+    body {
+    width: 90%;
+    height: 650px;
+    padding: 0 1em;
+    }
+
+    main {
+        height: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    div.main {
+        width: 70%;
+    }
+
+    #textarea {
+        width: 95%;
+        margin: 2em 1em 0;
+    }
+
+    .footer {
+        padding: 0.5em;
+        margin: 0;
+    }
+
+    .rodapie {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    #encriptar, #desencriptar {
+        display: inline;
+    }
+
+    #desencriptar {
+        margin-left: 1em;
+        margin-top: 0;
+    }
+
+    #aside {
+        width: 30%;
+        max-height: 550px;
+    }
+
+    img.aside-imagen {
+        display: block;
+        width: 100%;
+    }
+}
